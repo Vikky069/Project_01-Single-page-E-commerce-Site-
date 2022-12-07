@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css.">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./Sass/styles.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>Food-Crow</title>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <section class="Navigation">
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Food-Crow</a>
+        <div class="emptydiv"></div>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+
+
+                </svg><span>Home</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+
+                </svg> <span> About us</span> </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+
+                </svg> <span> Our Chefs</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+
+                </svg> <span>Contact us</span></a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <section class="AboutUS container " id="About" data-aos="zoom-in">
+    <div class="aboutus_title">
+      <h2>About Us</h2>
+      <p class="str">Lorem ipsum dolor sit amet consectetur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam facilis vel. Similique
+        dicta, corrupti repellendus incidunt eum nisi officia magnam perferendis veritatis voluptatem fuga
+        delectus, deserunt esse beatae eveniet ipsum id sit. Quidem?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquid dignissimos accusantium, officia
+        ducimus animi ad asperiores? Tempore iusto nisi libero deleniti in laborum, quam aperiam eaque
+        temporibus officiis aliquam inventore quae error. Provident quas quasi ut? Natus ullam quibusdam, facere
+        et iusto iste quidem quod nam quasi eligendi eveniet.</p>
+    </div>
+    <div class="circleImg">
+      <div class="Circle"></div>
+      <div class="sCircle"></div>
+    </div>
+
+  </section>
+
+
+
+  <footer>
+    <div class="footwrapper ">
+      <div class="title">
+        <p class="animated">
+          Food-Crow
+        </p>
+      </div>
+      <hr>
+      <div class="foot-tab container">
+        <div class="links-tab">
+          <h6>About Us</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veniam laboriosam doloribus at
+            reprehenderit recusandae placeat debitis itaque rem autem.</p>
+
+        </div>
+        <div class="links-tab">
+          <h6>Our Address </h6>
+          <p>Lorem ipsum dolor <br> sitLorem ipsum dolor <br> sit.Lorem .
+            Lorem ipsum -222222.</p>
+
+        </div>
+        <div class="links-tab">
+          <h6>Our Social links </h6>
+          <p>Lorem ipsum dolor <br> sitLorem ipsum dolor <br> sit.Lorem .
+            Lorem ipsum -222222.</p>
+
+        </div>
+        <div class="links-tab">
+          <h6>Contact Us </h6>
+          <p>Lorem ipsum dolor <br> sitLorem ipsum dolor <br> sit.Lorem .
+            Lorem ipsum -222222.</p>
+
+        </div>
+      </div>
+      <div class="socialButtons">
+        <a class="btn btn-block btn-social btn-twitter">
+          <span class="fa fa-twitter"></span>
+        </a>
+        <a class="btn btn-block btn-social btn-linkedin">
+          <span class="fa fa-linkedin"></span>
+        </a>
+        <a class="btn btn-block btn-social btn-github">
+          <span class="fa fa-github"></span>
+        </a>
+      </div>
+      <div class="copyrights">Copyright © 2021-2022 Rajat Bijekar. All Rights Reserved. All other trademarks and
+        copyrights are the property of their respective holders.</div>
+    </div>
+
+  </footer>
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script src="https://use.fontawesome.com/826a7e3dce.js"></script>
+  <script>// Permet de mettre à jour le plugin Owl Carousel pour utiliser jQuery 3.4.1
+    $.fn.andSelf = function () {
+      return this.addBack.apply(this, arguments);
+    }
+
+
+    //  EXPERTISE CAROUSEL HOOK
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplayTimeout: 1500,
+      nav: true,
+      navText: [
+        "<i class='fa fa-caret-left'></i>",
+        "<i class='fa fa-caret-right'></i>"
+      ],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        450: {
+          items: 2
+
+        },
+        770: {
+          items: 3
+        },
+      }
+    })</script>
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom Scripts -->
+  <script src="JS/index.js"></script>
+</body>
+
+</html>
